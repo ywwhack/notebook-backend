@@ -1,4 +1,4 @@
-FROM node: 4.2.2
+FROM daocloud.io/node:0.10-onbuild
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 COPY package.json /usr/src/app
